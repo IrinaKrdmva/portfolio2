@@ -1,20 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Irina Karadimova - Full Stack Web Dev</title>
+    <!--FONT-AWESOME-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
+    <!--CSS-->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <section>
-        <nav class="navbar">
-          <div class="navbrand">Irina K</div>
-        </nav>
-      </section>
+    <header class="cabecalho">
+      <a href="#">
+        <h1 class="logo">IK</h1>
+      </a>
+
+      <nav class="menu">
+        <ul>
+          <li><a href="#cv">Currículo</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
     </header>
-    <main></main>
+    <main>
+      <section class="home">
+        <div class="container-foto">
+          <div class="foto sombra-interna">
+            <img
+              src="./src/images/Foto-removebg.png"
+              alt="foto do portfólio da Irina"
+            />
+          </div>
+        </div>
+        <div class="informacoes">
+          <h1>Olá! Sou Irina Karadimova</h1>
+          <p>Sou desenvolvedora web Full Stack apaixonada pela tecnologia.</p>
+          <p>
+            Aceito constantemente novos desafios e projetos de modo a melhorar
+            os meus conhecimentos, procurando feedback na comunidade de
+            programação.
+          </p>
+          <p>Ah, também gosto de jogos, séries, animes e de ler.📗</p>
+
+          <ul>
+            <li>
+              <a
+                href="#"
+                title="Ir para o LinkedIn"
+                target="_blank"
+                class="linkedin"
+              >
+                <i class="fab fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#"
+                title="Ir para o GitHub"
+                target="_blank"
+                class="github"
+              >
+                <i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#"
+                title="Ir para o Instagram"
+                target="_blank"
+                class="instagram"
+              >
+                <i class="fab fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="projetos" id="projetos">
+        <h2 class="titulo">Projetos</h2>
+
+        <div class="container-projetos">
+          <div class="projeto ativo">
+            <a href="#" target="_blank">
+              <img
+                src="./src/images/Sebastião_Alves_home.png"
+                alt="Projeto Sebastião Alves "
+              />
+              <h3>Website Sebastião Alves</h3>
+
+              <div class="informacoes-projeto">
+                <p>
+                  Website comleto e funcional para um autor de livros,
+                  utilizando Bootstrap, PHP, Javascript e Base de dados(SQL).
+                </p>
+                <p>🔗Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+          <div class="projeto ativo">
+            <a href="#" target="_blank">
+              <img
+                src="./src/images/My_Portfolio_dark.png"
+                alt="Projeto Portfolio versão 1"
+              />
+              <h3>Projeto Portfólio v1</h3>
+
+              <div class="informacoes-projeto">
+                <p>
+                  Projeto de um exemplo de portfólio utilizando HTML, CSS e
+                  Javascript.
+                </p>
+                <p>🔗Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+          <div class="projeto ativo">
+            <a href="#" target="_blank">
+              <img
+                src="./src/images/My_Delicious_Restaurant.png"
+                alt="Projeto Restaurante"
+              />
+              <h3>Website de Restaurante</h3>
+
+              <div class="informacoes-projeto">
+                <p>
+                  Website comleto e funcional para um restaurante, utilizando
+                  HTML, CSS e Bootstrap.
+                </p>
+                <p>🔗Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+          <div class="projeto ativo">
+            <a href="#" target="_blank">
+              <img src="./src/images/Pomodoro1.png" alt="Projeto relogio" />
+              <h3>Projeto Relógio</h3>
+
+              <div class="informacoes-projeto">
+                <p>
+                  Projeto de um relogio de trabalho/descans utilizando HTML, CSS
+                  e Javascript.
+                </p>
+                <p>🔗Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
