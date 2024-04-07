@@ -219,6 +219,12 @@ body {
   display: none;
 }
 
+.copy {
+  margin-top: 1.5rem;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
