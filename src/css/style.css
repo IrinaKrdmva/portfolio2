@@ -108,14 +108,20 @@ body {
 }
 
 .home .container-foto .foto {
-  max-width: 28.125rem;
+  width: 28.125rem;
+  height: 28.125rem;
   border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .home .container-foto img {
-  width: 100%;
-  border-radius: 50%;
-  background: linear-gradient(to right, #8a35c8, #18c063, #00eea2);
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .home .foto.sombra-interna {
